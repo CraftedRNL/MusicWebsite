@@ -1,0 +1,16 @@
+.encasing {
+    margin: 10px;
+    background-color: rgb(216, 255, 255);
+}
+body {
+    background-color: rgb(126, 126, 126);
+}
+img {
+    width: 50px;
+}
+.border-r {
+    border-right: grey 2px solid;
+}
+.center {
+    justify-content: space-evenly;
+}
