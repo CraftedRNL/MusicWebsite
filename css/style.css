@@ -1,16 +1,67 @@
+* {
+    font-size: 25px;
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 4000;
+    font-style: normal;
+}
 .encasing {
     margin: 10px;
     background-color: rgb(216, 255, 255);
 }
 body {
+    padding-top: 56px;
     background-color: rgb(126, 126, 126);
 }
-img {
+.smallimg {
     width: 50px;
 }
 .border-r {
     border-right: grey 2px solid;
 }
-.center {
+.col-4 {
     justify-content: space-evenly;
+}
+.back {
+    border: 2px solid black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.alback {
+    background-image: url("/img/wavy\ blue.jpg");   
+}
+.arback {
+    background-image: url("/img/neon.jpg");
+}
+.inback {
+    background-image: url("/img/blub.webp");
+}
+.msback {
+    background-image: url("/img/repeat.png");
+}
+.white {
+    color: white !important;
+}
+hr {
+    background-color: rgb(0, 0, 0);
+    border: 3px solid rgb(126, 126, 126);
+    height: 10px;
+    width: 100%;
+    opacity: 1;
+}
+.custom-color {
+    background: rgb(191,255,239);
+background: linear-gradient(0deg, rgba(191,255,239,1) 0%, rgba(255,164,135,0.9444152661064426) 100%);
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bigimg {
+    width: 1440px;
+
+}
+.title {
+    height: 120px;
 }
