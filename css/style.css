@@ -28,16 +28,16 @@ body {
     background-size: cover;
 }
 .alback {
-    background-image: url("/img/wavy\ blue.jpg");   
+    background-image: url("../img/wavy\ blue.jpg");   
 }
 .arback {
-    background-image: url("/img/neon.jpg");
+    background-image: url("../img/neon.jpg");
 }
 .inback {
-    background-image: url("/img/blub.webp");
+    background-image: url("../img/blub.webp");
 }
 .msback {
-    background-image: url("/img/repeat.png");
+    background-image: url("../img/repeat.png");
 }
 .white {
     color: white !important;
@@ -64,4 +64,14 @@ background: linear-gradient(0deg, rgba(191,255,239,1) 0%, rgba(255,164,135,0.944
 }
 .title {
     height: 120px;
+}
+.btn-light {
+    border: 1px solid black;
+    width: 200px;
+    height: 500px;
+}
+.btn-dark, .col-2 {
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
 }
