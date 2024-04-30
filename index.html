@@ -1,76 +1,273 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MUSIC</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <div class="encasing">
-      <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand border-r" target="_blank" href="https://github.com/CraftedRNL"><img src="img/Copy of Ryan.png" alt="">&nbsp;&nbsp; Liu &nbsp;</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-              
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Albums
-                </a>
-                <ul class="dropdown-menu">
 
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Artists
-                </a>
-                <ul class="dropdown-menu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Too Much Music</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
+</head>
 
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              
-            </ul>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg custom-color fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand border-r " target="_blank" href="https://github.com/CraftedRNL"><img class="smallimg"
+          src="img/Copy of Ryan.png" alt="">&nbsp;&nbsp; Liu &nbsp;</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav navbar-nav-scroll justify-content-between mb-2 mb-lg-0 w-100">
+          <div class="alback back">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Albums
+              </a>
+              <ul class="dropdown-menu">
+
+              </ul>
+            </li>
           </div>
+          <div class="arback back">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle white" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Artists
+              </a>
+              <ul class="dropdown-menu">
+              </ul>
+            </li>
+          </div>
+          <div class="inback back">
+            <li class="nav-item">
+              <a class="nav-link" href="#interact">Interactive</a>
+            </li>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- title -->
+  <p> hi</p>
+  <div class="encasing">
+    <div class="msback">
+      <h1 class="center title">Harmony Hub</h1>
+    </div>
+    <hr>
+    <!-- (soon to be) Interactive -->
+    <div class=" justify-content-center d-flex" id="interact">
+      <img class="bigimg" src="/img/piano.jpeg" alt="">
+    </div>
+    <br><br>
+    <hr>
+    <!-- albums -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6">
+          <div id="carouselExampleIndicators1" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active ">
+                <a href="https://www.youtube.com/watch?v=uQTBzmBDSv0" target="_blank"><img src="/img/brisket.webp"
+                    class="d-block w-100 img-fluid" alt="Bridge"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="https://www.youtube.com/watch?v=7VvJLVQW4D4" target="_blank"><img src="/img/SugarWater.webp"
+                    class="d-block w-100 img-fluid" alt="~5 years old"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="https://www.youtube.com/watch?v=T8_UW5i01FQ" target="_blank"> <img src="/img/gunslinger.webp"
+                    class="d-block w-100 img-fluid" alt="Kachow Boom Pop"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="https://www.youtube.com/watch?v=bNyQdweaupY" target="_blank"><img src="/img/sleeeeeep.webp"
+                    class="d-block w-100 img-fluid" alt="Zzzz-Zzzzz-zzz-zz"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="https://www.youtube.com/watch?v=02Fy5oh2Pe8" target="_blank"> <img src="/img/thatMAN.webp"
+                    class="d-block w-100 img-fluid" alt="He is quite literally refered to as 'That Man' in ggst "></a>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
         </div>
-      </nav>
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
+        <div class="col-lg-6 center">
+          <h3>Hard rock is characterized by an emphasis on bluesy guitar riffs, powerful vocals, and heavy, thunderous
+            drums. This OST music is from ggst (Guilty Gear Strive). “Guilty Gear -Strive-“ is the latest entry in the
+            critically acclaimed Guilty Gear fighting game franchise. Created by Daisuke Ishiwatari and developed by Arc
+            System Works, “Guilty Gear -Strive-“ upholds the series’ reputation for a high octane soundtrack,
+            groundbreaking hybrid 2D/3D cell-shaded graphics and intense, rewarding gameplay. </h3>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
 
+      <div class="row">
+        <div class="col-lg-6 center">
+          <h3>A contemporary form of music that appeals to a very wide audience. It often includes a danceable tempo,
+            easy to remember lyrics, and simple notation. Khai Dreams combines elements of chillhop and lo-fi hip hop to
+            create his unique sound. His songs are often characterized by dreamy melodies and laid back beats. His music
+            can be described as soothing and thoughtful, often tackling themes of love and heartbreak. </h3>
+        </div>
+        <div class="col-lg-6 mt-5">
+          <div id="carouselExampleIndicators2" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active ">
+                <a href="https://www.youtube.com/watch?v=RTofvu_1d9s" target="_blank"><img
+                    src="/img/Through And Through.jpg" class="d-block w-100 img-fluid" alt="Through And Through"></a>
+              </div>
+              <div class="carousel-item ">
+                <a href="https://www.youtube.com/watch?v=ix-SGaaPZ2w" target="_blank"><img
+                    src="/img/SummerIsLikeADream.webp" class="d-block w-100 img-fluid" alt=""></a>
+              </div>
+              <div class="carousel-item ">
+                <a href="https://www.youtube.com/watch?v=_APtNBXKyRQ" target="_blank"><img src="/img/Now and Then.jpg"
+                    class="d-block w-100 img-fluid" alt=""></a>
+              </div>
+              <div class="carousel-item ">
+                <a href="https://www.youtube.com/watch?v=RcMX0PCw1m0" target="_blank"><img src="/img/NiceColors.jpg"
+                    class="d-block w-100 img-fluid" alt=""></a>
+              </div>
+              <div class="carousel-item ">
+                <a href="https://www.youtube.com/watch?v=UrO1DoGO6ho" target="_blank"><img src="/img/Lost In You.jpg"
+                    class="d-block w-100 img-fluid" alt=""></a>
+              </div>
+              <div class="carousel-item ">
+                <a href="https://www.youtube.com/watch?v=Q0-GKoXvN9Q" target="_blank"><img src="/img/Come True.jpg"
+                    class="d-block w-100 img-fluid" alt=""></a>
+              </div>
 
-
-
-
-
-
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
+    <hr>
+    <!-- Artists -->
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-4 center">
+          <div class="card" style="width: 18rem;">
+            <img src="/img/Naoki.jpg" class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 center">
+          <div class="card" style="width: 18rem;">
+            <img src="/img/Daisuke.jpg" class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 center">
+          <div class="card" style="width: 18rem;">
+            <img src="/img/Aisha.webp" class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-6 center">
+          <div class="card" style="width: 18rem;">
+            <img src="/img/Atwood.jpg" class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 center">
+          <div class="card" style="width: 18rem;">
+            <img src="/img/Khai Dreams.jpg" class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+
+
+
+
+
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
