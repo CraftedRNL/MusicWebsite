@@ -32,7 +32,8 @@
                 Albums
               </a>
               <ul class="dropdown-menu">
-
+                <li><a class="dropdown-item" href="#GGST-OST">GGST OST</a></li>
+                <li><a class="dropdown-item" href="#KhaiDreamsSongs">Khai Dream Songs</a></li>
               </ul>
             </li>
           </div>
@@ -43,6 +44,8 @@
                 Artists
               </a>
               <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#GGST-Artists">GGST Artists Row</a></li>
+                <li><a class="dropdown-item" href="#KhaiDream+other">Khai Dream and affiliate</a></li>
               </ul>
             </li>
           </div>
@@ -63,14 +66,30 @@
     </div>
     <hr>
     <!-- (soon to be) Interactive -->
-    <div class=" justify-content-center d-flex" id="interact">
-      <img class="bigimg" src="/img/piano.jpeg" alt="">
+    <div class=" justify-content-center d-flex position-relative" id="interact">
+      <div>
+        <div class="row">
+          <button type="button" class="btn btn-light">C</button>
+          
+          <button type="button" class="btn btn-light">D</button>
+
+          <button type="button" class="btn btn-light">E</button>
+          
+          <button type="button" class="btn btn-light">F</button>
+          
+          <button type="button" class="btn btn-light">G</button>
+         
+          <button type="button" class="btn btn-light">A</button>
+         
+          <button type="button" class="btn btn-light">B</button>
+        </div>
+      </div>
     </div>
     <br><br>
     <hr>
     <!-- albums -->
     <div class="container-fluid">
-      <div class="row">
+      <div class="row" id="GGST-OST">
         <div class="col-lg-6">
           <div id="carouselExampleIndicators1" class="carousel slide">
             <div class="carousel-indicators">
@@ -129,7 +148,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row" id="KhaiDreamsSongs">
         <div class="col-lg-6 center">
           <h3>A contemporary form of music that appeals to a very wide audience. It often includes a danceable tempo,
             easy to remember lyrics, and simple notation. Khai Dreams combines elements of chillhop and lo-fi hip hop to
@@ -195,7 +214,7 @@
     <!-- Artists -->
 
     <div class="container-fluid">
-      <div class="row">
+      <div class="row mt-5" id="GGST-Artists">
         <div class="col-4 center">
           <div class="card" style="width: 18rem;">
             <img src="/img/Naoki.jpg" class="card-img-top img-fluid" alt="...">
@@ -231,7 +250,7 @@
         </div>
       </div>
       <div class="row mt-5">
-        <div class="col-6 center">
+        <div class="col-6 center" id="KhaiDream+other">
           <div class="card" style="width: 18rem;">
             <img src="/img/Atwood.jpg" class="card-img-top img-fluid" alt="...">
             <div class="card-body">
