@@ -1,16 +1,112 @@
+* {
+    font-size: 25px;
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 4000;
+    font-style: normal;
+}
 .encasing {
     margin: 10px;
-    background-color: rgb(216, 255, 255);
+    background: rgb(246,208,255);
+background: linear-gradient(0deg, rgba(246,208,255,1) 0%, rgba(197,255,250,1) 100%);
 }
 body {
+    padding-top: 56px;
     background-color: rgb(126, 126, 126);
 }
-img {
+.smallimg {
     width: 50px;
 }
 .border-r {
     border-right: grey 2px solid;
 }
-.center {
+.col-4 {
     justify-content: space-evenly;
+}
+.back {
+    border: 2px solid black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.alback {
+    background-image: url("../img/wavy\ blue.jpg");   
+}
+.arback {
+    background-image: url("../img/neon.jpg");
+}
+.inback {
+    background-image: url("../img/blub.webp");
+}
+.msback {
+    background-image: url("../img/repeat.png");
+}
+.white {
+    color: white !important;
+}
+hr {
+    background-color: rgb(0, 0, 0);
+    border: 3px solid rgb(126, 126, 126);
+    height: 10px;
+    width: 100%;
+    opacity: 1;
+}
+.custom-color {
+    background: rgb(208,255,215);
+background: linear-gradient(0deg, rgba(208,255,215,0.5186449579831933) 0%, rgba(255,213,167,0.8575805322128851) 100%);
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bigimg {
+    width: 1440px;
+
+}
+.title {
+    height: 120px;
+}
+.btn-light {
+    border: 1px solid black;
+    width: 200px;
+    height: 500px;
+}
+.btn-dark, .col-2 {
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+
+.red:hover {
+    background-color: rgb(255, 111, 111);
+}
+.orange:hover {
+    background-color: rgb(255, 206, 116);
+}
+.yellow:hover {
+    background-color: rgb(255, 255, 122);
+}
+.green:hover {
+    background-color: rgb(121, 255, 121);
+}
+.blue:hover {
+    background-color:rgb(119, 119, 255);
+}
+.indigo:hover {
+    background-color: rgb(199, 121, 255);
+}
+.violet:hover {
+    background-color: violet;
+}
+
+.btn-light:hover {
+    border: 3px black solid;
+}
+.btn-light:focus {
+    background-image: url("../img/portal.gif");
+    background-size: cover;
+}
+.nav-link {
+    justify-content: center;
+    display: flex;
 }
