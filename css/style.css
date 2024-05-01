@@ -51,8 +51,13 @@ hr {
     opacity: 1;
 }
 .custom-color {
+<<<<<<< HEAD
     background: rgb(208,255,215);
 background: linear-gradient(0deg, rgba(208,255,215,0.5186449579831933) 0%, rgba(255,213,167,0.8575805322128851) 100%);
+=======
+    background: rgb(191,255,239);
+background: linear-gradient(0deg, rgba(191,255,239,1) 0%, rgba(255,164,135,0.9444152661064426) 100%);
+>>>>>>> c079fefd9dce3df7df30af0263bce653fb8664b4
 }
 .center {
     display: flex;
@@ -76,6 +81,7 @@ background: linear-gradient(0deg, rgba(208,255,215,0.5186449579831933) 0%, rgba(
     bottom: 0;
     z-index: 1;
 }
+<<<<<<< HEAD
 
 .red:hover {
     background-color: rgb(255, 111, 111);
@@ -110,3 +116,5 @@ background: linear-gradient(0deg, rgba(208,255,215,0.5186449579831933) 0%, rgba(
     justify-content: center;
     display: flex;
 }
+=======
+>>>>>>> c079fefd9dce3df7df30af0263bce653fb8664b4
