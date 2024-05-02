@@ -110,3 +110,7 @@ background: linear-gradient(0deg, rgba(208,255,215,0.5186449579831933) 0%, rgba(
     justify-content: center;
     display: flex;
 }
+.card-text {
+    font-size: 18px;
+    font-weight: bold;
+}
