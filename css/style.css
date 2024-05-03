@@ -38,7 +38,8 @@ body {
     background-image: url("../img/blub.webp");
 }
 .msback {
-    background-image: url("../img/repeat.png");
+    background-image: url("../img/clouds.webp");
+    max-width: 100%;
 }
 .white {
     color: white !important;
@@ -58,23 +59,23 @@ background: linear-gradient(0deg, rgba(208,255,215,0.5186449579831933) 0%, rgba(
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .bigimg {
     width: 1440px;
 
 }
 .title {
-    height: 120px;
+    height: 160px;
+    border: 3px solid rgb(181, 211, 196);
+    font-weight: bolder;
+    font-size: 75px;
+    
 }
 .btn-light {
     border: 1px solid black;
     width: 200px;
     height: 500px;
-}
-.btn-dark, .col-2 {
-    position: absolute;
-    bottom: 0;
-    z-index: 1;
 }
 
 .red:hover {
